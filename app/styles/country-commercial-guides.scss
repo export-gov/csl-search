@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+#country-commercial-guides {
+  header {
+   
+   color: #333;
+   text-align: center;
+   padding: 2.5em 2em 0;
+   border-bottom: 1px solid #eee;
+   margin-bottom: 100px;
+ }
+  header h1 {
+    margin: 0.2em 0;
+    font-size: 3em;
+    font-weight: 300;
+    color:#134f8f;
+  }
+
+  form.search .countries {
+    padding-right: 0;
+  }
+
+iframe {
+min-height: 600px;
+height:100%;
+width: 100%;
+padding:0;
+
+}
+
+
+.content {
+  max-width:1000px;
+}
+
+h1 {
+  font-size: 2.75em;
+  margin: .67em 0;
+  color: #3F3F3F;
+  line-height: 52px;
+  margin-bottom: .45em;
+}
+
+
+h3 {
+  color: #134f8f;
+  font-style: italic;
+}
+
+p {
+  font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  font-size: 17px;
+  font-weight:400;
+  line-height: 1.8em;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; 
+  padding: 0;
+}
+
+.tags li {
+  float: left; 
+}
+
+.tag {
+  font-size:12px;
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  color: #999;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag::after {
+  background: #fff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #eee;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+}
+
+.tag:hover::after {
+   border-left-color: crimson;text-decoration: none; }
+
+//.dropdown {
+  //float:right;
+  //position: relative;
+  //display: inline-block;
+  //text-align: left;
+  //width: 210px;
+//}
+
+//.dropdown-text {
+  //cursor: pointer;
+  //position: absolute;
+  //text-indent: 10px;
+  //line-height: 32px;
+  //background-color: #eee;
+  //border: 1px solid #ccc;
+  //border-radius: 3px;
+  //box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+  //width: 100%;
+//}
+
+//.dropdown-text:after {
+  //position: absolute;
+  //right: 6px;
+  //top: 15px;
+  //content: '';
+  //width: 0px;
+  //height: 0px;
+  //border-style: solid;
+  //border-width: 5px 4px 0 4px;
+  //border-color: #555 transparent transparent transparent;
+//}
+
+//.dropdown-text,
+//.dropdown-content a {
+  //color: #333;
+  //text-shadow: 0 1px #fff;
+//}
+
+//.dropdown-toggle {
+  //font-size: 0;
+  //z-index: 1;
+  //cursor: pointer;
+  //position: absolute;
+  //top: 0;
+  //border: none;
+  //padding: 0;
+  //margin: 0 0 0 1px;
+  //background: transparent;
+  //text-indent: -10px;
+  //height: 34px;
+  //width: 100%;
+//}
+
+//.dropdown-toggle:focus {
+  //outline: 0;
+//}
+
+//.dropdown-content {
+  //-webkit-transition: all .25s ease;
+  //-moz-transition: all .25s ease;
+  //-ms-transition: all .25s ease;
+  //-o-transition: all .25s ease;
+  //transition: all .25s ease;
+  //list-style-type: none;
+  //position: absolute;
+  //top: 32px;
+  //padding: 0;
+  //margin: 0;
+  //opacity: 0;
+  //visibility:hidden;
+  //border-radius: 3px;
+  //text-indent: 10px;
+  //line-height: 32px;
+  //background-color: #eee;
+  //border: 1px solid #ccc;
+  //width: 210px;
+//}
+
+//.dropdown-content a {
+  //display: block;
+//}
+
+//.dropdown-content a:hover {
+  //background: #e8e8e8;
+//}
+
+
+//.dropdown-toggle:hover ~ .dropdown-text,
+//.dropdown-toggle:focus ~ .dropdown-text {
+  //background-color: #e8e8e8;
+//}
+
+//.dropdown-toggle:focus ~ .dropdown-text {
+  //box-shadow: 0 1px 3px rgba(0,0,0, .2) inset, 0 1px 0 rgba(255,255,255, 0.8);
+  //z-index: 2;
+//}
+
+//.dropdown-toggle:focus ~ .dropdown-text:after {
+  //border-width: 0 4px 5px 4px;
+  //border-color: transparent transparent #555 transparent;
+//}
+
+//.dropdown-content:hover,
+//.dropdown-toggle:focus ~ .dropdown-content {
+  //opacity: 1;
+  //visibility:visible;
+  //top: 42px;
+//}
+}
