@@ -1,0 +1,6 @@
+---
+permalink: 'argentina/due-dilligence.html'
+published: true
+layout: default
+---
+Companies interested in Argentina should always conduct due diligence before entering into business ventures or other commercial arrangements. The U.S. Commercial Service in Argentina provides U.S. firms with information that can assist companies in [due diligence](http://export.gov/argentina/servicesforu.s.companies/eg_ar_021794.asp) efforts on a specific Argentine company to help determine its suitability as a potential business partner. We can investigate the capabilities, legitimacy, and financial strength of an Argentine company and provide useful information gleaned from government, industry and financial contacts, the local press and other sources. In addition, the U.S. Commercial Service in Argentina includes site visits and interviews with key personnel of Argentine firms with whom U.S. firms are considering or maintain a business relationship through its International Company Profile service. Our assistance does not rise to the level of due diligence in a legal sense, but does provide valuable information to that end. Please contact [Josette.Fiore@trade.gov](Josette.Fiore@trade.gov) for more information.

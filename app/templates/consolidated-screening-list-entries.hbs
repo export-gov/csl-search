@@ -1,0 +1,69 @@
+<div class="content">
+  <form class="pure-form search" {{action "search" on="submit"}}>
+    <fieldset>
+      <label for="q"><h3>Keyword</h3>Search for words in the name, alternative names (aliases), title of the entity, and additional remarks regarding the entity.</label>
+      {{input class="pure-input-1" value=qField}}
+
+      <div class="pure-u-1 pure-u-md-1">
+        <label for="name"><h3>Name</h3>Search for an entity’s name or one of its alternative names.</label>
+        {{input class="pure-input-1" value=nameField}}
+      </div>
+
+      <div class="pure-u-1 pure-u-md-1">
+      <label for="fuzzyName"><h3>Fuzzy Name</h3>When set to off, the spelling of the Name you search for must be correct to get results. When set to on, the spelling for the Name you search for may be slightly off. Check the score for each result to determine how close a match it is to the entity's name or its alternative names. A score of 100 is an exact match. Results are returned with the highest scores first.</label>
+      </div>
+
+      <div class="pure-u-1 pure-u-md-11-24">
+        {{view "select2"
+        content=fuzzyNameList
+        value=fuzzyNameField
+        optionValuePath="content.value"
+        optionLabelPath="content.label"
+        prompt="Off"
+        id="fuzzyName"
+        class="pure-input-1"}}
+      </div>
+ 
+      <div class="pure-u-1">
+        <label for="address"><h3>Address</h3>Search for the street address, city, province, and postal code of an entity.</label>
+        {{input class="pure-input-1" value=addressField}}
+      </div>
+
+      
+
+        <div class="pure-u-1  pure-u-md-1">
+          <label for="sources"><h3>Sources</h3>Choose which of the eleven screening lists that you want to search.</label>
+          {{view "select2"
+            content=sourceList
+            selection=sourcesField
+            optionValuePath="content.value"
+            optionLabelPath="content.label"
+            id="sources"
+            class="pure-input-1"
+            multiple=true}}
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1">
+          <label for="countries"><h3>Countries</h3>Choose which countries that you want to search.  
+          </br>Note, the Nonproliferation Sanctions and ITAR Debarred lists do not include the country with an entity. If you choose to search for entities by country then you will not be searching these two lists.</label>
+          {{view "select2"
+            content=countryList
+            selection=countriesField
+            optionValuePath="content.value"
+            optionLabelPath="content.label"
+            id="countries"
+            class="pure-input-1"
+            multiple=true}}
+        </div>
+
+        <div class="pure-u-1">
+          {{input type="submit" value="Search" class="pure-button pure-button-primary"}}
+        </div>
+
+      
+
+    </fieldset>
+  </form>
+
+  {{outlet}}
+</div>
