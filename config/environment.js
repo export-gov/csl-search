@@ -37,10 +37,10 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.baseURL = '/explorer';
     ENV.locationType = 'hash';
-    ENV.webservicesBaseURL = 'https://api.govwizely.com/v2';
-    ENV.webservicesApiKey = 'DXAFEQrLKzgb8nUGwI-plLJ-';
-    ENV.developerportalUrl = '//govwizely.github.io/developerportal';
-    ENV.apiKeyUrl = 'https://api.govwizely.com';
+    ENV.webservicesBaseURL = 'https://api.trade.gov/v2';
+    ENV.webservicesApiKey = 'VeaYLDhMLX_HwcbEbx27s5r3';
+    ENV.developerportalUrl = 'http:/developer.trade.gov';
+    ENV.apiKeyUrl = 'https://api.trade.gov';
   }
 
   return ENV;
