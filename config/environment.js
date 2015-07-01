@@ -8,7 +8,7 @@ module.exports = function(environment) {
     webservicesApiKey: 'cfVhA_8HepggR81yU6yo1KGN',
     developerportalUrl: 'http://localhost:4000/developerportal',
     apiKeyUrl: 'http://localhost:3000',
-    appTitle: 'ITA Explorer',
+    appTitle: 'Export.gov/CSL Search',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -37,10 +37,10 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.baseURL = '/explorer';
     ENV.locationType = 'hash';
-    ENV.webservicesBaseURL = 'http://api.trade.gov/v2';
-    ENV.webservicesApiKey = 'VeaYLDhMLX_HwcbEbx27s5r3';
-    ENV.developerportalUrl = 'http://developer.trade.gov';
-    ENV.apiKeyUrl = 'https://api.trade.gov';
+    ENV.webservicesBaseURL = 'https://api.govwizely.com/v2';
+    ENV.webservicesApiKey = 'DXAFEQrLKzgb8nUGwI-plLJ-';
+    ENV.developerportalUrl = '//govwizely.github.io/developerportal';
+    ENV.apiKeyUrl = 'https://api.govwizely.com';
   }
 
   return ENV;
