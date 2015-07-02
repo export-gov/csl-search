@@ -5,7 +5,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.resource('consolidated-screening-list-entries', { path: '/csl-search' }, function(){});
+  this.resource('consolidated-screening-list-entries', { path: '/' }, function(){});
 });
 
 export default Router;
