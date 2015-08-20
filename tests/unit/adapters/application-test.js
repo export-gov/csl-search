@@ -15,12 +15,12 @@ test('buildUrl: query arguments', function() {
     type = 'explorer@model:consolidated-screening-list-entry:';
   equal(
     adapter.buildUrl(type, {}),
-    'http://localhost:3000/v2/consolidated_screening_list/search?api_key=cfVhA_8HepggR81yU6yo1KGN'
+    'http://localhost:3000/consolidated_screening_list/search?api_key=cfVhA_8HepggR81yU6yo1KGN'
   );
 
   equal(
     adapter.buildUrl(type, {page: 2}),
-    'http://localhost:3000/v2/consolidated_screening_list/search?api_key=cfVhA_8HepggR81yU6yo1KGN&offset=10'
+    'http://localhost:3000/consolidated_screening_list/search?api_key=cfVhA_8HepggR81yU6yo1KGN&offset=10'
   );
 });
 
@@ -29,7 +29,7 @@ test('buildUrl: supported model types', function() {
     type = 'explorer@model:ita-faq:';
   equal(
     adapter.buildUrl(type, {}),
-    'http://localhost:3000/v2/ita_faqs/search?api_key=cfVhA_8HepggR81yU6yo1KGN'
+    'http://localhost:3000/ita_faqs/search?api_key=cfVhA_8HepggR81yU6yo1KGN'
   );
 
   throws(

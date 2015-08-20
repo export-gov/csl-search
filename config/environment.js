@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     environment: environment,
     locationType: 'auto',
-    webservicesBaseURL: 'http://localhost:3000/v2',
+    webservicesBaseURL: 'http://localhost:3000',
     webservicesApiKey: 'cfVhA_8HepggR81yU6yo1KGN',
     developerportalUrl: 'http://localhost:4000/developerportal',
     apiKeyUrl: 'http://localhost:3000',
@@ -37,7 +37,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.baseURL = '/explorer';
     ENV.locationType = 'hash';
-    ENV.webservicesBaseURL = 'https://api.trade.gov/v2';
+    ENV.webservicesBaseURL = 'https://api.trade.gov';
     ENV.webservicesApiKey = 'VeaYLDhMLX_HwcbEbx27s5r3';
     ENV.developerportalUrl = 'http:/developer.trade.gov';
     ENV.apiKeyUrl = 'https://api.trade.gov';
